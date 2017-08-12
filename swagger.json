@@ -66,9 +66,9 @@
       },
       "post" : {
         "tags" : [ "admins" ],
-        "summary" : "adds an inventory item",
-        "operationId" : "addInventory",
-        "description" : "Adds an item to the system",
+        "summary" : "adds an ingredient",
+        "operationId" : "addIngredient",
+        "description" : "Adds an ingredient to the system",
         "consumes" : [ "application/json" ],
         "produces" : [ "application/json" ],
         "parameters" : [ {
