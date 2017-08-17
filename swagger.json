@@ -115,6 +115,10 @@
           "type" : "integer",
           "example" : 30
         },
+        "Unit" : {
+          "type" : "string",
+          "example" : "grams"
+        },
         "CategoryId" : {
           "type" : "string",
           "format" : "uuid",
@@ -124,29 +128,6 @@
           "type" : "string",
           "format" : "uuid",
           "example" : "xd90f1eed-6c54-4b01-90e6-d701748f0851"
-        }
-      }
-    },
-    "IngredientsPost" : {
-      "type" : "object",
-      "required" : [ "IngredientId", "Name", "Color", "AvailableQuantity" ],
-      "properties" : {
-        "IngredientId" : {
-          "type" : "string",
-          "format" : "uuid",
-          "example" : "d290f1ee-6c54-4b01-90e6-d701748f0851"
-        },
-        "Name" : {
-          "type" : "string",
-          "example" : "Salt"
-        },
-        "Color" : {
-          "type" : "string",
-          "example" : "White"
-        },
-        "AvailableQuantity" : {
-          "type" : "integer",
-          "example" : 30
         }
       }
     }
